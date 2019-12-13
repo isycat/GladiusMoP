@@ -1,0 +1,36 @@
+﻿## Interface: 50300
+## X-Compatible-With: 40000
+## Title: Gladius MoP
+## Notes: Arena enemy unit frames
+## Version: 5.3-04
+## Author: firebunny
+## SavedVariables: GladiusMoPDB
+## OptionalDeps: Ace3, LibStub, LibSharedMedia-3.0
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+GladiusMoP.lua
+
+localization\enUS.lua
+localization\deDE.lua
+
+options.lua
+speclist.lua
+
+modules\clicks.lua
+modules\classicon.lua
+modules\trinket.lua
+modules\highlight.lua
+modules\targetbar.lua
+modules\healthbar.lua
+modules\powerbar.lua
+modules\castbar.lua
+modules\auras.lua
+modules\tags.lua
+modules\announcements.lua
+modules\drtracker.lua
+modules\timer.lua
+modules\layout.lua
+modules\dispell.lua
